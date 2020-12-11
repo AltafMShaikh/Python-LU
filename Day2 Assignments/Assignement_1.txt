@@ -1,0 +1,23 @@
+Try 5 Different functions of the String in Python
+1.Lower fuction
+>>>"EmpIRE".lower()
+Output:
+'empire'
+2.Upper Function
+>>> "empire".upper()
+Output:
+'EMPIRE'
+3.Repalce Function
+>>> 'Happy New Year'.replace('Happy','Python')
+Output:
+'Python New Year'
+4.String Length
+>>>text = “Python”
+>>>print(len(text))
+Output: 
+6
+5.String Reverse
+>>>lang = “Python”
+>>>print(‘’.join(reversed(lang))) 
+Output:
+nohtyP

@@ -1,0 +1,39 @@
+3.Experiment with atleast 5 default functions of Dictionary
+1.Compare Function
+x = {1: 1, 2:2, 3:3}
+y = {1:1, 2:2, 3:3}
+print (cmp(x, y))
+OutPut:
+0
+2.Contains Function
+myDictionary = {'Key-1': 'Element-1', 'Key-2': 'Element-2', 'Key-3': 'Element-3', 'Key-4': 'Element-4'}
+print(myDictionary.__contains__('Key-2'))
+OutPut:
+True
+3.Keys Function
+person = {'name': 'Phill', 'age': 22, 'salary': 3500.0}
+print(person.keys())
+empty_dict = {}
+print(empty_dict.keys())
+OutPut:
+dict_keys(['name', 'salary', 'age'])
+dict_keys([]
+4.Update Function
+d = {1: "one", 2: "three"}
+d1 = {2: "two"}
+d.update(d1)
+print(d)
+d1 = {3: "three"}
+d.update(d1)
+print(d)
+OutPut:
+{1: 'one', 2: 'two'}
+{1: 'one', 2: 'two', 3: 'three'}
+5.SetDefalut Function
+person = {'name': 'Phill', 'age': 22}
+age = person.setdefault('age')
+print('person = ',person)
+print('Age = ',age)
+OutPut:
+person =  {'name': 'Phill', 'age': 22}
+Age =  22
